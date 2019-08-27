@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 @Controller
 public class HelloController {
 
-    @RequestMapping(value = "/success", method = {RequestMethod.GET})
+    @RequestMapping(value = "/a", method = {RequestMethod.GET})
     @ResponseBody
     public String successModel(HttpServletRequest request, HttpServletResponse reponse) {
         return "success";
