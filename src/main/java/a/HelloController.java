@@ -14,6 +14,6 @@ public class HelloController {
     @RequestMapping(value = "/a", method = {RequestMethod.GET})
     @ResponseBody
     public String successModel(HttpServletRequest request, HttpServletResponse reponse) {
-        return "success33333---2222-22";
+        return "success33333---3333";
     }
 }
